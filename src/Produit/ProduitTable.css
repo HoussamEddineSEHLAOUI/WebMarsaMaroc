@@ -1,0 +1,114 @@
+
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1em;
+  min-width: 80%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.content-table thead tr {
+  background-color: #dfcece;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.content-table thead tr th {
+  text-align: center;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #a80000;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #a80000;
+}
+.ProduitTableMaint {
+  background-color: #f0a400;
+  border: none;
+  color: white;
+  padding: 3px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20%;
+}
+.ProduitTableUpdate {
+  background-color: #00ce1b;
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1em;
+  margin: 10px;
+}
+.ProduitTableDel {
+  background-color: #f01c00;
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1em;
+  margin: 10px;
+}
+.ProduitTableDet {
+  background-color: #0098f0;
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1em;
+  margin: 10px;
+}
+.ProduitTableMaintVide {
+  height: 30px;
+}
+.tilte {
+  margin-left: 30px;
+}
+
+
+.AddProduit {
+  background-color: rgb(217, 74, 74);
+  text-align: center;
+  width: 150px;
+  height: 35px;
+  border-radius: 1em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ffffff;
+  padding-top: 10px;
+}

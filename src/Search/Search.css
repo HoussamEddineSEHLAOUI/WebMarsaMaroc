@@ -1,0 +1,18 @@
+.search {
+  background-color: rgb(217, 74, 74);
+  height: 70px;
+  justify-content: center;
+}
+
+.search input {
+  background-color: rgb(245, 255, 240);
+  margin-top: 10px;
+  height: 15px;
+  width: 550px;
+  border: none;
+  border-radius: 0.6em;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 17px;
+  margin-left: 100px;
+}
